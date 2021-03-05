@@ -1,0 +1,132 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 26px;
+}
+
+.showcase-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 50px;
+  color: #fff;
+  /* margin-bottom: 30px; */
+}
+header {
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 20px 30px 700px #000000, inset -10px -10px 100px #000000;
+}
+
+.showcase-content h1 {
+  font-size: 40px;
+  /* margin-bottom: 20px; */
+}
+.showcase-content h1 span {
+  margin-left: 1px;
+}
+
+.showcase-content p {
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+
+.showcase-content input {
+  height: 54px;
+  width: 200px;
+  font-size: 26px;
+  margin-top: 7.5rem;
+}
+
+/* Main Section */
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-text {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding: 91px;
+}
+*/ .container-content img {
+  height: 370px;
+  width: 320px;
+  background: url('./img/20227-21661-netflix2-l.jpg') no-repeat 70px 75px/377px;
+  margin-bottom: 2rem;
+}
+
+/* card */
+.grid-item1 {
+  margin-left: 6rem;
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+  margin-bottom: 1rem;
+}
+.grid-item1 h1 {
+  /* margin-inline-end: 0;
+  margin-inline-start: 0; */
+}
+
+.holder {
+  display: flex;
+  height: 106px;
+  background: #000000;
+  color: #fff;
+  padding: 10px;
+  border: 2.5px solid #333;
+  max-width: 380px;
+  position: relative;
+  border-radius: 10px;
+  margin-left: 2rem;
+}
+
+.container-text.left {
+  padding: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-left: 1px;
+}
+.grid-item2 span {
+  display: none;
+}
+
+.holder {
+  display: none;
+}
+.holder div {
+  display: none;
+}
+
+/* About Section */
+
+.about-container {
+  display: flex;
+  background: #333;
+  width: inherit;
+  height: 70px;
+  margin-bottom: 2px;
+  font-size: 2rem;
+  padding: 1rem 25px;
+  justify-content: space-between;
+  cursor: pointer;
+  /* transition: 0.5s ease-in; */
+}

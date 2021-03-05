@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      display:flex;
+      align-items: center;
+      min-height: 90vh;
+      justify-content: center;
+      text-align: center;
+    }
+    .parent{
+      position: relative;
+      background:#303030;
+      width:400px;
+      height:400px;
+      }
+
+      .child{
+        position: absolute;
+        top:0;
+         left:0; 
+        /* bottom:0; */
+        right:0;
+        background:#757575;
+        height: 50px;
+        width:50px;
+
+      }
+  </style>
+  <title>Practice</title>
+</head>
+<body>
+    <div class="parent">
+      <p>someText</p>
+      <div class="child"></div>
+      <p>some Text</p>
+    </div>
+</body>
+</html>
